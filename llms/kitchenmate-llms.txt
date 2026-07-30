@@ -1,0 +1,31 @@
+# KitchenMate
+
+> KitchenMate operates 24/7 unattended micro-markets for workplaces, condos, schools and
+> hospitals, combining a checkout-free vision-sensor Smart Fridge with induction Smart
+> Cookers that heat chef-prepared entrees in 7-10 minutes. The platform business has since
+> rebranded as Micromart. KitchenMate publishes no public API, developer portal or SDKs.
+
+## Company
+- [KitchenMate](https://kitchenmate.com/): Product, menu and location marketing site.
+- [About](https://kitchenmate.com/about): Company background.
+- [Micromart](https://micromart.com): Successor autonomous-retail platform brand.
+
+## Customer surfaces
+- [Help Center](https://help.kitchenmate.com/en): Product guides, cooking and troubleshooting, menu and dietary information, loyalty and referrals.
+- [Account login](https://my.kitchenmate.com/): Customer account portal.
+- [Contact](https://kitchenmate.com/contacts): Sales and location inquiries.
+
+## Legal
+- [Terms and Conditions](https://kitchenmate.com/terms)
+- [Privacy Policy](https://kitchenmate.com/privacy)
+
+## Code
+- [micromart-tech on GitHub](https://github.com/micromart-tech): Company GitHub organization. Public repositories are forks of third-party infrastructure projects (JupyterLab, sequelize, balena-sdk, react-native-tcp-socket); no first-party API specifications or client SDKs are published.
+
+## API Evangelist artifacts
+- [Domain security](security/kitchenmate-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture.
+
+## Notes for agents
+- There is no public KitchenMate API, OpenAPI description, MCP server, webhook catalog or SDK as of 2026-07-19.
+- `/.well-known/` paths and `/llms.txt` on my.kitchenmate.com return HTTP 200 but serve the AngularJS single-page-application shell, not real documents. Treat them as soft 404s.
+- kitchenmate.com returns real 404s for `/pricing`, `/blog`, `/careers`, `/faq` and `/locations`.
