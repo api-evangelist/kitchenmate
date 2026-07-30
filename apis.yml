@@ -1,19 +1,50 @@
 aid: kitchenmate
 name: KitchenMate
-description: KitchenMate is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: KitchenMate is a Toronto-based autonomous retail and workplace food-service
+  company that operates 24/7 unattended micro-markets built around two pieces of proprietary
+  hardware, a checkout-free Smart Fridge that uses vision sensors to detect what a customer
+  removes and bill them automatically, and induction-based Smart Cookers that heat chef-prepared
+  entrees in seven to ten minutes. The kiosks are installed in workplaces, condominiums,
+  schools, hospitals and other commercial locations, require roughly seven square feet
+  plus standard electrical and network connectivity, and accept Visa, Mastercard, Amex,
+  Apple Pay and Google Pay at the unit. A companion iOS and Android app carries loyalty
+  rewards, dietary filters and meal feedback. The company has since rebranded its platform
+  business as Micromart, which markets the same autonomous smart-store technology under
+  the tagline "Be anywhere. Sell anything." across a stated 2,000+ locations in North
+  America. KitchenMate publishes no public API, developer portal or SDKs; this profile
+  captures its identity and probed security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/kitchenmate/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/60e462dc1873a51fdff1b813/6668a09702fdb8b3ed017797_Logo2%20(2).svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: no-public-api-surface
+x-rebranded-to: Micromart (https://micromart.com)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food and Beverage
+- Autonomous Retail
+- Vending
+- Smart Devices
+- Internet of Things
+- Workplace Services
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://kitchenmate.com/
+- type: About
+  url: https://kitchenmate.com/about
+- type: Support
+  url: https://help.kitchenmate.com/en
+- type: Login
+  url: https://my.kitchenmate.com/
+- type: TermsOfService
+  url: https://kitchenmate.com/terms
+- type: PrivacyPolicy
+  url: https://kitchenmate.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/micromart-tech
+- type: DomainSecurity
+  url: security/kitchenmate-domain-security.yml
+- type: LLMsTxt
+  url: llms/kitchenmate-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
