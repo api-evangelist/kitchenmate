@@ -64,17 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-KitchenMate is a Toronto-based autonomous retail and workplace food-service company operating 24/7 unattended micro-markets: a checkout-free, vision-sensor Smart Fridge and induction Smart Cookers that heat chef-prepared entrees in 7-10 minutes. Kiosks are installed in workplaces, condos, schools and hospitals, with a companion iOS/Android app for rewards and dietary filters.
+KitchenMate is a Toronto-based autonomous retail and workplace food-service company that operates 24/7 unattended micro-markets built around two pieces of proprietary hardware, a checkout-free Smart Fridge that uses vision sensors to detect what a customer removes and bill them automatically, and induction-based Smart Cookers that heat chef-prepared entrees in seven to ten minutes. The kiosks are installed in workplaces, condominiums, schools, hospitals and other commercial locations, require roughly seven square feet plus standard electrical and network connectivity, and accept Visa, Mastercard, Amex, Apple Pay and Google Pay at the unit. A companion iOS and Android app carries loyalty rewards, dietary filters and meal feedback. The company has since rebranded its platform business as Micromart, which markets the same autonomous smart-store technology under the tagline "Be anywhere. Sell anything." across a stated 2,000+ locations in North America. KitchenMate publishes no public API, developer portal or SDKs; this profile captures its identity and probed security posture only.
 
-The platform business has since rebranded as **Micromart** (https://micromart.com), marketing the same autonomous smart-store technology.
+**Areas:** Company · Food and Beverage · Autonomous Retail · Vending · Smart Devices · IoT · Workplace Services · Hardware
 
-Backed by: techstars — https://kitchenmate.com/
+## KitchenMate on APIs.io
 
-## API surface
+Everything profiled for KitchenMate is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kitchenmate/](https://apis.io/providers/kitchenmate/)** — or go straight to one of the APIs or properties below.
 
-KitchenMate publishes **no public API, developer portal, OpenAPI description, SDKs, MCP server or webhook catalog** as of 2026-07-19. The company GitHub organization (https://github.com/micromart-tech) contains only forks of third-party infrastructure projects. Spec-dependent artifacts are therefore intentionally absent rather than fabricated.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- `security/kitchenmate-domain-security.yml` — live-probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture.
-- `llms/kitchenmate-llms.txt` — generated llms.txt describing the company's public surfaces.
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kitchenmate Domain Security](https://apis.io/security/kitchenmate/kitchenmate-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kitchenmate.com/)
+- [Support](https://help.kitchenmate.com/en)
+- [Terms of service](https://kitchenmate.com/terms)
+- [Privacy policy](https://kitchenmate.com/privacy)
+- [GitHub](https://github.com/micromart-tech)
+
+## API Evangelist rating
+
+**Kin Score 12.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kitchenmate/](https://apis.io/providers/kitchenmate/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for KitchenMate: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kitchenmate/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
